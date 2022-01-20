@@ -14,9 +14,7 @@ public class b4583 {
 			if(a.equals("#")) {
 				break;
 			}
-			
-			
-				String b="";
+			String b="";
 				for(int i=(a.length()-1);i>=0;i--) {
 					char mirror=a.charAt(i);
 					
@@ -35,30 +33,19 @@ public class b4583 {
 						b= b+'p';
 						break;
 							
-					case 'o':
-						b= b+'o';
-						break;
-						
+					case 'o':						
 					case 'i':
-						b= b+'i';
-						break;
 					case 'v':
-						b= b+'v';
-						break;
 					case 'w':
-						b= b+'w';
-						break;
 					case 'x':
-						b= b+'x';
+						b= b+mirror;
 						break;
 						default :
 							//System.out.println("INVALID");
 							k=1;
 							break;
 					}
-					
-					
-					
+				
 				}
 				if(k==1) {
 					k=0;
