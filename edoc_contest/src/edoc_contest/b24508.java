@@ -20,7 +20,6 @@ public class b24508 {
 		//StringTokenizer st2 = null;
 		st = new StringTokenizer(sc.readLine());
 		for(int i=0; i<a.length; i++) {
-			
 			a[i]=Integer.parseInt(st.nextToken());
 		}
 		int sum=0;
