@@ -9,8 +9,7 @@ public class b4583 {
 		Scanner sc= new Scanner(System.in);
 		int k=0;
 		while(true) {
-			String a= sc.nextLine();
-			
+			String a= sc.nextLine();		
 			if(a.equals("#")) {
 				break;
 			}
