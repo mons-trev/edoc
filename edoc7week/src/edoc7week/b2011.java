@@ -23,11 +23,11 @@ public class b2011 {
 				if(sample[i-1]==0 || sample[i-1]>2) break;
 				else {
 					if(i==1) dp[i]=1;
-					else dp[i]=dp[i-1]+dp[i-2];
+					else dp[i]=dp[i-2];
 				}
 			}
-			else {
-				if((sample[i-1]>2)||(sample[i-1]==2&&sample[i]>6)) dp[i]=dp[i-1];
+			else {//0ÀÌ ¾Æ´Ò ¶§
+				if((sample[i-1]>2)||(sample[i-1]==2&&sample[i]>6)||sample[i-1]==0) dp[i]=dp[i-1];
 				else {
 					if(i==1) dp[i]=2;
 					else dp[i]=dp[i-1]+dp[i-2];
