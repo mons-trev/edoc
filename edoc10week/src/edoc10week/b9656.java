@@ -1,13 +1,12 @@
 package edoc10week;
-
-import java.util.Scanner;
+import java.io.*;
 
 public class b9656 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException{
 		// TODO Auto-generated method stub
-		Scanner sc= new Scanner(System.in);
-		int n= sc.nextInt();
+		BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+		int n= Integer.parseInt(br.readLine());
 		int remainder= n%4;
 		switch(remainder) {
 			case 0:
@@ -22,7 +21,7 @@ public class b9656 {
 			case 3:
 					System.out.println("CY");
 		}
-		sc.close();
+		br.close();
 	}
 
 }
