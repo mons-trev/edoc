@@ -21,7 +21,6 @@ public class programmers {
 	        for(int i=2; i<n+1; i++) {
 	        	if(prime[i]==true) {
 	        		answer++;
-	        		System.out.println(i);
 	        	}
 	        }
 	        return answer;
