@@ -33,7 +33,7 @@ public class b2630 {
 			else if (count==0) {
 				white++;
 			}
-			//같은 색으로 칠해져 있지 않을 때
+			//같은 색으로 칠해져 있지 않을 때- 재귀함 수 호출
 			else {
 				int k=4;
 				int derivearr[][]= new int[n/2][n/2];
