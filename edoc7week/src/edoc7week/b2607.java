@@ -29,7 +29,7 @@ public class b2607 {
 			for(int j=0; j<freq_compare.length; j++) {
 				diff=diff+Math.abs(freq_sample[j]-freq_compare[j]);
 			}
-			if(diff==0||diff==1||diff==2) {
+			if(diff==0||diff==1||(words[0].length()==words[i].length()&&diff==2)) {
 				answer++;
 			}
 		}
